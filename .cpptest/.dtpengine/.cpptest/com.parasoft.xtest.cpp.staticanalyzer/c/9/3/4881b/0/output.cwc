@@ -1,0 +1,110 @@
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h
+<c>STL-37-DOWNGRADED
+<b>The 'children' array should not be used
+<l>39
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.cpp
+<c>MISRA2004-16_7
+<b>Pass parameter "node" with const specifier
+<l>13
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.cpp
+<c>OPT-33
+<b>Returned value from function 'query' is passed by value
+<l>78
+<k>43
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h
+<c>MRM-33
+<b>Pointer member 'root' is allocated by new but not obviously deleted in destructor of class 'AdvancedDictionary'
+<l>46
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h
+<c>OPT-13
+<b>Members 'words' of class 'AdvancedDictionary' are declared in suboptimal order for memory layout
+<l>8
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h
+<c>OPT-33
+<b>Returned value from function 'query' is passed by value
+<l>20
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h
+<c>CODSTA-CPP-06
+<b>Member function 'getRoot' returns handles to member data: 'root'
+<l>23
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h
+<c>CODSTA-CPP-77
+<b>Const member function 'getRoot' returns non-const handles to member data: 'root'
+<l>23
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h
+<c>OOP-36
+<b>Public member function 'getRoot' returns non-const handles to member data: 'root'
+<l>23
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h
+<c>CODSTA-CPP-06
+<b>Member function 'getWords' returns handles to member data: 'words'
+<l>31
+<k>56
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h
+<c>OPT-13
+<b>Members 'children' of structure 'TrieNode' are declared in suboptimal order for memory layout
+<l>36
+<k>12
+<s>false
+<N>
+<f>
+<L>0

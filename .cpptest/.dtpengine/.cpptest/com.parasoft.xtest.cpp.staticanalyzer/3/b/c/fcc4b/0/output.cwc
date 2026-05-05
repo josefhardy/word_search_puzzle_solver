@@ -1,0 +1,10 @@
+<->
+<F>C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedGrid.h
+<c>OPT-13
+<b>Members 'down, downLeft, downRight, left, right, up, upLeft, upRight' of structure 'Cell' are declared in suboptimal order for memory layout
+<l>4
+<k>8
+<s>false
+<N>
+<f>
+<L>0

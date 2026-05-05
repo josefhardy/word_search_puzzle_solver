@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ResultsSessionDetails>
+   <mergePnt id="locationsDetails">
+      <Locations>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.cpp" loc="WordSearch/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" projPath="WordSearch/WordSearch" project="WordSearch"/>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h" loc="WordSearch/WordSearch/Header Files/dictionary/AdvancedDictionary.h" projPath="WordSearch/WordSearch" project="WordSearch"/>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedGrid.h" loc="WordSearch/WordSearch/Header Files/grid/AdvancedGrid.h" projPath="WordSearch/WordSearch" project="WordSearch"/>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\WordSearch.cpp" loc="WordSearch/WordSearch/Source Files/WordSearch.cpp" projPath="WordSearch/WordSearch" project="WordSearch"/>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\SimpleDictionary.h" loc="WordSearch/WordSearch/Header Files/dictionary/SimpleDictionary.h" projPath="WordSearch/WordSearch" project="WordSearch"/>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\HashDictionary.h" loc="WordSearch/WordSearch/Header Files/dictionary/HashDictionary.h" projPath="WordSearch/WordSearch" project="WordSearch"/>
+   </Locations>
+   </mergePnt>
+</ResultsSessionDetails>

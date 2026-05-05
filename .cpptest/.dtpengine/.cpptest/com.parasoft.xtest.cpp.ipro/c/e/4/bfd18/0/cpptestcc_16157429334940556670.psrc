@@ -1,0 +1,26 @@
+cl.exe
+-IC:\Program Files\Parasoft\C++test for Visual Studio (x86_64)\10.7\engine\runtime\include
+/ZI
+/Od
+/EHsc
+/RTC1
+/MDd
+/Gd
+/GS
+/IC:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\
+/Gm-
+/D_DEBUG
+/D_CONSOLE
+/D_UNICODE
+/DUNICODE
+/Zc:wchar_t
+/Zc:forScope
+/Zc:inline
+/nologo
+/FC
+/permissive-
+/diagnostics:column
+-DPARASOFT_CPPTEST
+-I.
+--cpptest_cpp_file
+C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\Main.cpp

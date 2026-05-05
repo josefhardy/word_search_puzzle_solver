@@ -1,0 +1,11 @@
+cpptestcc.compilerCfgFile C:\Program Files\Parasoft\C++test for Visual Studio (x86_64)\10.7\engine\etc\compilers\vc_14_3-64\cpp.psrc
+cpptestcc.workspace C:\Users\792497\Source\Repos\lab-i-final-lab-josefhardy\.cpptest\.dtpengine
+cpptestcc.runIpro on
+cpptestcc.runPpro off
+cpptestcc.runCwc off
+cpptestcc.runCoverageAnalysis off
+cpptestcc.runStaticAnalysis on
+cpptestcc.runOriginalCommand off
+ipro.outputFile C:\Users\792497\Source\Repos\lab-i-final-lab-josefhardy\.cpptest\.dtpengine\.cpptest\com.parasoft.xtest.cpp.ipro\c\e\4\bfd18\0\output.ipro
+pscom.tmpDir C:\Users\792497\Source\Repos\lab-i-final-lab-josefhardy\.cpptest\.dtpengine\.cpptest\com.parasoft.xtest.cpp.ipro\c\e\4\bfd18\0\tmp
+edg.multibyte_chars_in_source_enabled on

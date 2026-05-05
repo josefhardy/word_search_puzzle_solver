@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\grid">
+      <UniqueIdentifier>{d3648490-6c9a-47c5-9489-51521fe3c330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dictionary">
+      <UniqueIdentifier>{65482f6b-da73-432e-85a2-1d1814ab6d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\grid">
+      <UniqueIdentifier>{14a59ea2-a7fa-400d-969e-bf4d28b39394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dictionary">
+      <UniqueIdentifier>{04d736a1-42ce-4eb0-8376-0d9613016e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{bcffc928-d658-49b0-941f-f71a00864890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="output">
+      <UniqueIdentifier>{7b0ff3e3-45d1-4e48-a74c-72e26a29d52b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WordSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleGrid.cpp">
+      <Filter>Source Files\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedGrid.cpp">
+      <Filter>Source Files\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleDictionary.cpp">
+      <Filter>Source Files\dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedDictionary.cpp">
+      <Filter>Source Files\dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="HashDictionary.cpp">
+      <Filter>Source Files\dictionary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WordSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleGrid.h">
+      <Filter>Header Files\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedGrid.h">
+      <Filter>Header Files\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleDictionary.h">
+      <Filter>Header Files\dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedDictionary.h">
+      <Filter>Header Files\dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="HashDictionary.h">
+      <Filter>Header Files\dictionary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="advanced_puzzle_simple_dictionary.txt">
+      <Filter>output</Filter>
+    </Text>
+    <Text Include="simple_puzzle_advanced_dictionary.txt">
+      <Filter>output</Filter>
+    </Text>
+    <Text Include="simple_puzzle_simple_dictionary.txt">
+      <Filter>output</Filter>
+    </Text>
+    <Text Include="simple_puzzle_hash_dictionary.txt">
+      <Filter>output</Filter>
+    </Text>
+    <Text Include="advanced_puzzle_hash_dictionary.txt">
+      <Filter>output</Filter>
+    </Text>
+    <Text Include="advanced_puzzle_advanced_dictionary.txt">
+      <Filter>output</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

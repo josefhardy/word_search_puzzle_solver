@@ -1,0 +1,22 @@
+Number of words matched: 6
+
+Words matched in grid:
+0 0 VARIATION
+4 0 COURAGE
+6 0 ECONOMICS
+8 5 THEORY
+5 7 DEVICE
+0 8 DELIVERY
+
+Words unmatched in grid:
+EMPLOYEE
+
+Number of grid cells visited: 857
+Number of dictionary entries visited: 857
+
+Time to populate grid: 0.000172
+Time to populate dictionary: 0.00015
+Time to solve puzzle: 3.6e-05
+
+Size of the grid data structure: 5832
+Size of the dictionary data structure: 11016

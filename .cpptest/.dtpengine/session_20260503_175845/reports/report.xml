@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="Default Project-2026-05-03" climode="true" endTime="2026-05-03T17:58:50+01:00" execEnv="win32_x86_64" hasViols="true" id="1779109193741" lang="en_GB" machine="RB-321-21" prjModule="WordSearch" project="" tag="500083 rule set 2025" time="2026-05-03T17:58:49+01:00" toolDispName="C/C++test" toolId="c++test" toolName="DTP Engine for C/C++" toolVer="2025.1.0" user="792497">
+   <TestParameters cmdLn="cpptestcli -settings C:\Users\792497\Source\Repos\lab-i-final-lab-josefhardy\.cpptest\.dtpengine\session_20260503_175845\engine.properties -config user://500083 rule set 2025 -input C:\Users\792497\Source\Repos\lab-i-final-lab-josefhardy\.cpptest\.dtpengine\session_20260503_175845\bdf.lst"/>
+   <TestConfig machine="RB-321-21" name="500083 rule set 2025" pseudoUrl="user://500083 rule set 2025" user="792497"/>
+   <Authors>
+      <Author id="dev1" name="792497"/>
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.xtest.scope.analyzer" name="Scope Analyzer" ver="10.7.2.20250508"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.7.2.20250522B2677"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.desktop.files.in.scope" name="Helper Scope Analyzer for C/C++test Professional" ver="10.7.2.20250522B2677"/>
+      <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Code Duplication Parser" ver="10.7.2.20250508"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.7.2.20250522B2677"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.7.2.20250507B5670"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.dupcode" name="Code Duplication Detector" ver="10.7.2.20250508"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.global" name="Parasoft C/C++ Global Static Analyzer" ver="10.7.2.20250522B2677"/>
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IChangeImpactViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1"/>
+   </VersionInfos>
+   <Goals tsks="22">
+      
+   </Goals>
+   <Scope>
+      <Repositories/>
+      <Locations>
+         <Loc auth="792497" hash="-145436819" locRef="1" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Source Files/Main.cpp" totLns="58" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/Main.cpp"/>
+         <Loc auth="792497" hash="-513336795" locRef="2" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Source Files/WordSearch.cpp" totLns="362" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/WordSearch.cpp"/>
+         <Loc auth="792497" hash="371716226" locRef="3" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Source Files/grid/AdvancedGrid.cpp" totLns="45" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/AdvancedGrid.cpp"/>
+         <Loc auth="792497" hash="1909774089" locRef="4" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Source Files/grid/SimpleGrid.cpp" totLns="31" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/SimpleGrid.cpp"/>
+         <Loc auth="792497" hash="920890444" locRef="5" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Source Files/dictionary/AdvancedDictionary.cpp" totLns="103" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/AdvancedDictionary.cpp"/>
+         <Loc auth="792497" hash="674303977" locRef="6" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Source Files/dictionary/HashDictionary.cpp" totLns="53" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/HashDictionary.cpp"/>
+         <Loc auth="792497" hash="-913991897" locRef="7" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Source Files/dictionary/SimpleDictionary.cpp" totLns="37" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/SimpleDictionary.cpp"/>
+         <Loc auth="792497" hash="-1566744675" locRef="8" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Header Files/grid/SimpleGrid.h" totLns="20" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/SimpleGrid.h"/>
+         <Loc auth="792497" hash="643418494" locRef="9" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Header Files/WordSearch.h" totLns="60" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/WordSearch.h"/>
+         <Loc auth="792497" hash="-1027184227" locRef="10" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Header Files/dictionary/HashDictionary.h" totLns="33" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/HashDictionary.h"/>
+         <Loc auth="792497" hash="656526455" locRef="11" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Header Files/dictionary/SimpleDictionary.h" totLns="31" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/SimpleDictionary.h"/>
+         <Loc auth="792497" hash="1463734401" locRef="12" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Header Files/dictionary/AdvancedDictionary.h" totLns="54" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/AdvancedDictionary.h"/>
+         <Loc auth="792497" hash="-1783358447" locRef="13" projId="WordSearch" projPath="/WordSearch" project="WordSearch" resProjPath="Header Files/grid/AdvancedGrid.h" totLns="39" uri="file:/C:/Users/792497/source/repos/lab-i-final-lab-josefhardy/WordSearch/AdvancedGrid.h"/>
+      </Locations>
+   </Scope>
+   
+  <SetupProblems/>
+
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:00">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="13" checkedLns="926" id="WordSearch" name="WordSearch" qfixErrs="0" suppErrs="0" totErrs="22" totFiles="13" totLns="926"/>
+      </Projects>
+      
+      
+      <Rules>
+         <CategoriesList>
+            <Category authTot="1;" authUrg="1;" desc="Code Duplication Detection" name="CDD" rules="4" total="1"/>
+            <Category authTot="0;" authUrg="0;" desc="Coding Conventions" name="CODSTA" rules="570" total="0">
+               <Category authTot="1;" authUrg="1;" desc="Coding Conventions for C++" name="CODSTA-CPP" rules="136" total="1">
+                  <Category authTot="3;" authUrg="3;" desc="UNKNOWN" name="CODSTA-CPP-06" rules="1" total="3"/>
+               </Category>
+               <Category authTot="0;" authUrg="0;" desc="Coding Conventions for Modern C++" name="CODSTA-MCPP" rules="82" total="0"/>
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Exceptions" name="EXCEPT" rules="27" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="Initialization" name="INIT" rules="25" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="MISRA C 1998" name="MISRA" rules="62" total="0"/>
+            <Category authTot="1;" authUrg="1;" desc="MISRA C 2004" name="MISRA2004" rules="226" total="1"/>
+            <Category authTot="1;" authUrg="1;" desc="MISRA C++ 2008" name="MISRA2008" rules="346" total="1"/>
+            <Category authTot="1;" authUrg="1;" desc="Memory and Resource Management" name="MRM" rules="67" total="1"/>
+            <Category authTot="0;" authUrg="0;" desc="Naming Conventions" name="NAMING" rules="107" total="0"/>
+            <Category authTot="1;" authUrg="1;" desc="Object Oriented" name="OOP" rules="63" total="1">
+               <Category authTot="0;" authUrg="0;" desc="UNKNOWN" name="OOP-05" rules="1" total="0"/>
+            </Category>
+            <Category authTot="5;" authUrg="5;" desc="Optimization" name="OPT" rules="54" total="5">
+               <Category authTot="3;" authUrg="3;" desc="UNKNOWN" name="OPT-13" rules="1" total="3"/>
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Possible Bugs" name="PB" rules="90" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="Physical File Organization" name="PFO" rules="12" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="Portability" name="PORT" rules="40" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="Security" name="SECURITY" rules="57" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="STL Best Practices" name="STL" rules="42" total="0">
+               <Category authTot="5;" authUrg="5;" desc="UNKNOWN" name="STL-37" rules="1" total="5"/>
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Template" name="TEMPL" rules="20" total="0"/>
+         </CategoriesList>
+         <RulesList>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.dupcode" authTot="0;" authUrg="0;" cat="CDD" desc="Avoid function duplication" id="CDD-DUPM" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.dupcode" authTot="1;" authUrg="1;" cat="CDD" desc="Avoid code duplication" id="CDD-DUPC" sev="3" total="1"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.dupcode" authTot="0;" authUrg="0;" cat="CDD" desc="Avoid duplication of #include directives" id="CDD-DUPI" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.dupcode" authTot="0;" authUrg="0;" cat="CDD" desc="Avoid string literal duplication" id="CDD-DUPS" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Local variables should not use the same names as member variables" id="CODSTA-44" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Parameters should not use the same names as member variables" id="CODSTA-45" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Do not declare the size of an array when the array is passed into a function as a parameter" id="CODSTA-15" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Do not define constants via #define" id="CODSTA-03" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="If a function has no parameters, use ( ) instead of ( void )" id="CODSTA-07" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="A cast should not remove any 'const' qualification from the type of a pointer or reference" id="CODSTA-14" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Shift and bitwise operations should not be performed on operands of essentially signed or enum type" id="CODSTA-161_e" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="The value of an expression shall not be assigned to an object with a narrower essential type" id="CODSTA-163_a" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Floating-point expressions shall not be explicitly (syntactically) tested for equality (==) or inequality (!=)" id="CODSTA-225" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="If a pointer to a structure or union is never dereferenced within a translation unit, then the implementation of the object should be hidden" id="CODSTA-115" sev="4" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Avoid arithmetic operations in macros" id="CODSTA-38" sev="4" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="Avoid switch statements with only one case" id="CODSTA-41" sev="4" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Constructors allowing for conversion should be made explicit" id="CODSTA-CPP-04" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Do not use user-defined conversion functions" id="CODSTA-CPP-05" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="The first operand of a conditional-operator shall have type bool" id="CODSTA-CPP-65" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Copy operations must not mutate the source object" id="CODSTA-CPP-98" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Have assignment operator returns a reference to *this; make assignment operator's return type a non-const reference to it's class' type" id="CODSTA-CPP-02" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Bitwise operators, comparison operators, logical operators, comma operator should be const" id="CODSTA-CPP-03" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Postfix increment and decrement should be implemented in terms of their prefix counterparts" id="CODSTA-CPP-07" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Avoid overloading logical operators AND, OR (&amp;&amp;, ||)" id="CODSTA-CPP-08" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Do not compare objects of a class that may contain padding bits with C standard library functions" id="CODSTA-CPP-100" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="A relational operator shall return a boolean value" id="CODSTA-CPP-101" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Define special members as =default when the behavior is equivalent to the compiler's behavior" id="CODSTA-CPP-105" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="C-style casts should not be used" id="CODSTA-CPP-11" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="If you'd like to support mixed-mode operations make operators a non-member functions" id="CODSTA-CPP-20" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Avoid making any assignment operator virtual. Do not return const T&amp; from assignment operator" id="CODSTA-CPP-24" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Prefer non-member operators than member ones to support mixed-mode arithmetic" id="CODSTA-CPP-30" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Avoid using static_cast on pointers" id="CODSTA-CPP-34" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Avoid dynamic_casts" id="CODSTA-CPP-35" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Conversion operator, operator->, operator(), operator[] should be const" id="CODSTA-CPP-38" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Declare reference parameters as const references whenever possible" id="CODSTA-CPP-43" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Have the non-const version call the const version of member function instead of duplicating the const version definition" id="CODSTA-CPP-44" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Do not define inline functions in source files" id="CODSTA-CPP-51" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Consider using the natural relationship between the assignment version of an operator and the stand-alone version" id="CODSTA-CPP-52" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Declare local variable as const whenever possible" id="CODSTA-CPP-53" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Member functions shall be declared const whenever possible" id="CODSTA-CPP-54" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Literal zero (0) shall not be used as the null-pointer-constant" id="CODSTA-CPP-63" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="The unary &amp; operator shall not be overloaded" id="CODSTA-CPP-68" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="1;" authUrg="1;" cat="CODSTA-CPP" desc="Const member functions shall not return non-const pointers or references to class-data" id="CODSTA-CPP-77" sev="3" total="1"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Avoid overloading comma operator &quot;,&quot;" id="CODSTA-CPP-80" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="The overloaded binary operator should be implemented in terms of its corresponding compound assignment operator" id="CODSTA-CPP-91" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Do not modify the standard namespaces 'std' and 'posix'" id="CODSTA-CPP-95" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Classes which have only getters/setters (accessors/mutators) are not allowed" id="CODSTA-CPP-81" sev="4" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="Prefer iostream.h to stdio.h" id="CODSTA-CPP-01" sev="5" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="3;" authUrg="3;" cat="CODSTA-CPP-06" desc="Avoid returning handles to class data from member functions" id="CODSTA-CPP-06-DOWNGRADED" origId="CODSTA-CPP-06" sev="5" total="3"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="User-conversion cast operators should be made explicit" id="CODSTA-MCPP-01" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Prefer alias declarations to typedefs" id="CODSTA-MCPP-02" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="The only form of the null-pointer-constant should be 'nullptr'" id="CODSTA-MCPP-04" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Each overriding virtual function shall be declared with the override or final specifier" id="CODSTA-MCPP-05" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Declare copy constructor and copy assignment operators with the 'delete' specifier to prevent copying of class" id="CODSTA-MCPP-06_a" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Declare copy constructor and copy assignment operators with the 'delete' specifier instead of using a base class with private methods to prevent copying of class" id="CODSTA-MCPP-06_b" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="If a public destructor of a class is non-virtual, then the class should be declared final" id="CODSTA-MCPP-23" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Consider using 'std::unique_ptr' instead of 'std::shared_ptr' for local objects" id="CODSTA-MCPP-30" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Do not introduce virtual functions in a final class" id="CODSTA-MCPP-52" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-MCPP" desc="Unscoped enumerations should not be declared" id="CODSTA-MCPP-03" sev="4" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Never allow an exception to be thrown from a destructor, deallocation, and swap" id="EXCEPT-01" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Throw by value, catch by reference" id="EXCEPT-02" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Do not throw from within destructor" id="EXCEPT-03" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="Do not initialize a reference to an object whose address can be changed" id="INIT-05" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="All member variables should be initialized in constructor" id="INIT-06" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="Initialize static class members" id="INIT-09" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="An assignment operator shall assign all data members" id="INIT-11" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="List members in an initialization list in the order in which they are declared" id="INIT-10" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="Avoid initialization order problems across translation units by replacing non-local static objects with local static objects" id="INIT-12" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="Do not assume that members are initialized in any special order in constructors" id="INIT-13" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="Prefer initialization to assignment in constructors" id="INIT-14" sev="5" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA" desc="All automatic variables shall have been assigned a value before being used" id="MISRA-030" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="Assignment operators shall not be used in expressions that yield a Boolean value" id="MISRA2004-13_1" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="Floating-point expressions shall not be tested for equality or inequality" id="MISRA2004-13_3" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="The controlling expression of a for statement shall not contain any objects of floating type" id="MISRA2004-13_4" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="1;" authUrg="1;" cat="MISRA2004" desc="A pointer parameter in a function prototype should be declared as pointer to const if the pointer is not used to modify the addressed object" id="MISRA2004-16_7" sev="3" total="1"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="The address of an object with automatic storage shall not be returned from a function" id="MISRA2004-17_6_a" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="A function should be used in preference to a function-like macro" id="MISRA2004-19_7" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2008" desc="Protected member functions shall not return non-const handles to class-data" id="MISRA2008-9_3_2_a" origId="OOP-12" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="1;" authUrg="1;" cat="MISRA2008" desc="Public member functions shall not return non-const handles to class-data" id="MISRA2008-9_3_2_b" origId="OOP-36" sev="2" total="1"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Use the same form in corresponding calls to new/malloc and delete/free" id="MRM-06" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not invoke malloc/realloc for objects having constructors" id="MRM-08" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Avoid hiding the global new" id="MRM-32" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Declare a copy assignment operator for classes with dynamically allocated memory" id="MRM-37" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Declare a copy constructor for classes with dynamically allocated memory" id="MRM-38" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Never return a dereferenced local pointer initialized by new in this function scope" id="MRM-23" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="1;" authUrg="1;" cat="MRM" desc="Call delete on pointer members in destructors" id="MRM-33" sev="2" total="1"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="A copy constructor shall copy all data members and bases" id="MRM-41" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="An assignment operator shall assign all data bases" id="MRM-43" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Adhere to convention when writing new and delete" id="MRM-12" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Adhere to convention when writing new" id="MRM-13" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="If a class defines any overload of operator new, it should provide overloads of all three of plain, in-place, and non-throwing operator new" id="MRM-14" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="If a class defines any overload of operator new[], it should provide overloads of all three of plain, in-place, and non-throwing operator new[]" id="MRM-15" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="If a class defines any overload of operator delete, it should provide overloads of all three of plain, in-place, and non-throwing operator delete" id="MRM-16" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="If a class defines any overload of operator delete[], it should provide overloads of all three of plain, in-place, and non-throwing operator delete[]" id="MRM-17" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not allocate memory and expect that someone else will deallocate it later" id="MRM-18" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not allocate memory and expect that someone else will deallocate it later" id="MRM-19" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not allocate memory and expect that someone else will deallocate it later" id="MRM-20" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Use objects to manage resources" id="MRM-21" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Use objects to manage resources" id="MRM-22" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Write operator delete if you write operator new" id="MRM-26" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Write operator delete[] if you write operator new[]" id="MRM-27" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Always provide new and delete together" id="MRM-28" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Always provide new[] and delete[] together" id="MRM-29" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Freed memory shouldn't be accessed under any circumstances" id="MRM-31" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Destructor should not be called manually" id="MRM-31_b" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Never provide brackets ([]) for delete when deallocating non-arrays" id="MRM-35" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Always provide empty brackets ([]) for delete when deallocating arrays" id="MRM-36" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Both copy constructor and copy assignment operator should be declared for classes with a nontrivial destructor" id="MRM-40_d" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="Do not use calloc, malloc, realloc and free functions" id="MRM-46" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="A copy constructor and a copy assignment operator shall be declared for classes that contain pointers to data items or nontrivial destructors" id="MRM-49" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="NAMING" desc="All &quot;#define&quot; constants shall be in uppercase" id="NAMING-01" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Class cannot inherit other class more than once unless it is virtual inheritance" id="OOP-03" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Be wary about using multiple inheritance of classes that are not abstract interfaces" id="OOP-07" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Do not directly access global data from a constructor" id="OOP-08" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid calling virtual functions from constructors" id="OOP-16" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid calling virtual functions from destructors" id="OOP-16_b" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Define a virtual destructor in classes used as base classes which have virtual functions" id="OOP-22" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Make destructors virtual in base classes" id="OOP-24" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="A pointer to an abstract class shall not be converted to a pointer of a class that inherits from that abstract class" id="OOP-29" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Make base class destructors public and virtual, or protected and nonvirtual" id="OOP-31" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="If a class destructor is called and the class has virtual functions it shall have a virtual destructor" id="OOP-38" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Casts from a base class to a derived class should not be performed on polymorphic types" id="OOP-49" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid &quot;public&quot; data members" id="OOP-18" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid 'protected' data members" id="OOP-19" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="If a class has virtual functions it shall have a virtual destructor" id="OOP-23" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Down casting (casting from base to derived class) shall not be allowed" id="OOP-35" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Do not derive functions with the same name from more than one base class" id="OOP-04" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="For multiple inheritance use virtual common base class" id="OOP-06" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid using the friend mechanism" id="OOP-11" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Protected member function shall not return non-const handles to private class-data" id="OOP-12" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Do not redefine an inherited virtual function with a different default parameter value" id="OOP-13" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid explicit cast from derived to a base class" id="OOP-20" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Avoid declaring virtual functions inline" id="OOP-25" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Declare copy assignment operator for class with reference or const members" id="OOP-27" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Member functions declared in derived classes should not hide equivalent functions declared in base classes" id="OOP-32" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Do not redefine an inherited nonvirtual function with template parameter" id="OOP-33" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="1;" authUrg="1;" cat="OOP" desc="Public member functions shall not return non-const handles to private/protected class-data" id="OOP-36" sev="3" total="1"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Member functions declared in derived classes should not hide non-equivalent functions declared in base classes" id="OOP-53" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Write a using declaration to redeclare overloaded functions" id="OOP-17" sev="4" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="User-provided copy assignment operators shall handle self-assignment" id="OOP-34" sev="4" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Consider use composition instead of private inheritance" id="OOP-14" sev="5" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="Prefer composition when don't need inheritance" id="OOP-37" sev="5" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP-05" desc="Do not use multiple inheritance" id="OOP-05-DOWNGRADED" origId="OOP-05" sev="5" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Eliminate unused parameters" id="OPT-03" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Variables will not be introduced until they can be initialized with meaningful values" id="OPT-26" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Declare variables as locally as possible" id="OPT-01" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Prefer &quot;a @= b&quot; than &quot;a = a @ b&quot;, where &quot;@&quot; is +, -, *, /, %" id="OPT-07" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Prefer &quot;a @= b&quot; than &quot;a = a @ b&quot;, where &quot;@&quot; is &amp;, |, ^, &lt;&lt;, >>" id="OPT-08" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="1;" authUrg="1;" cat="OPT" desc="Pass objects by reference instead of by value" id="OPT-14" sev="3" total="1"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Global function containing recursion, loops or virtual function call should not be inlined" id="OPT-16" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Member function containing recursion or loops should not be inlined" id="OPT-18" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Consider using op= instead of stand-alone op" id="OPT-19" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Postpone variable definitions as long as possible" id="OPT-20" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Every switch statement shall have at least two switch-clauses" id="OPT-39" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="A project should not contain unused local variables" id="OPT-02" sev="4" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="1;" authUrg="1;" cat="OPT" desc="Trivial accessor and mutator functions should be inlined" id="OPT-23" sev="4" total="1"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Trivial forwarding functions should be inlined" id="OPT-24" sev="4" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OPT" desc="Remove unnecessary '== true'" id="OPT-09" sev="5" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="3;" authUrg="3;" cat="OPT" desc="Consider returning object by reference instead of by value" id="OPT-33" sev="5" total="3"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="3;" authUrg="3;" cat="OPT-13" desc="Declare member variables in the descending size order" id="OPT-13-DOWNGRADED" origId="OPT-13" sev="5" total="3"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Do not call delete on non-pointers" id="PB-13" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Properly terminate character strings" id="PB-21" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="The class object should be passed by reference if the class has non-static pointers and has no declared copy constructor" id="PB-23" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Operators should not return value by reference" id="PB-09" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="A string literal shall not be modified" id="PB-27" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Don't treat arrays polymorphically" id="PB-10" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Don't assign the dividend of two integers to a floating-point type" id="PB-15" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Avoid overloading class methods on a pointer and a numerical type" id="PB-18" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="Do not create inline non-member functions that contain local static data" id="PB-19" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="An element of an object shall not be initialized more than once" id="PB-69" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PFO" desc="Use mechanism that prevents multiple inclusion of the file i.e. include guards or &quot;#pragma once&quot; preprocessor directive" id="PFO-08" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PORT" desc="Don't use hard coded value of offset in structures" id="PORT-03" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="SECURITY" desc="Never use gets()" id="SECURITY-16" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="STL" desc="When calling swap, employ a using declaration for std::swap, then call swap without namespace qualification" id="STL-40" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="STL" desc="Do not declare the non-member to be an overloading of std::swap" id="STL-41" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="STL" desc="Member version of swap should never throw exceptions" id="STL-42" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="5;" authUrg="5;" cat="STL-37" desc="C-style arrays shall not be used" id="STL-37-DOWNGRADED" origId="STL-37" sev="4" total="5"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="TEMPL" desc="Define non-member functions inside templates when type conversions are desired" id="TEMPL-02" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="TEMPL" desc="In template global functions use 'typename' to identify nested dependent type names" id="TEMPL-04" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="TEMPL" desc="In template classes use 'typename' to identify nested dependent type names" id="TEMPL-05" sev="3" total="0"/>
+         </RulesList>
+         <SeverityList>
+            <Severity authTot="2;" authUrg="2;" id="2" total="2"/>
+            <Severity authTot="5;" authUrg="5;" id="3" total="5"/>
+            <Severity authTot="6;" authUrg="6;" id="4" total="6"/>
+            <Severity authTot="9;" authUrg="9;" id="5" total="9"/>
+         </SeverityList>
+      </Rules>
+      
+  <Supps/>
+
+      
+  <StdViols>
+    <StdViol msg="The 'directions' array should not be used" ln="125" locFile="/WordSearch/Source Files/WordSearch.cpp" locStartln="125" sev="4" auth="792497" locRef="2" rule="STL-37-DOWNGRADED" lnHash="1020255459" rule.header="C-style arrays shall not be used" tool="c++test" lineHash="1020255459" unbViolId="183c21e0-ce9d-301f-a5b7-c2293c3895c8" locStartPos="12" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="dbba648a-1fd8-34b6-93ed-1a8d60924fb3" locEndPos="13" locType="sr" urgent="true" hash="-513336795" locEndLn="125" goals="1,"/>
+    <StdViol msg="The 'buffer' array should not be used" ln="157" locFile="/WordSearch/Source Files/WordSearch.cpp" locStartln="157" sev="4" auth="792497" locRef="2" rule="STL-37-DOWNGRADED" lnHash="1711857549" rule.header="C-style arrays shall not be used" tool="c++test" lineHash="1711857549" unbViolId="8ede17c0-abda-374d-a365-13aebf80babe" locStartPos="25" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="959e5d0f-da11-3716-8975-602532653ac0" locEndPos="26" locType="sr" urgent="true" hash="-513336795" locEndLn="157" goals="1,"/>
+    <DupViol msg="Duplicated code: 'buffer[length++] = c;                        bool isWord = f...'" ln="168" locFile="/WordSearch/Source Files/WordSearch.cpp" locStartln="168" sev="3" auth="792497" locRef="2" rule="CDD-DUPC" lnHash="1713392639" rule.header="Avoid code duplication" tool="c++test" lineHash="1713392639" unbViolId="f0902f50-acb3-31f3-9dd6-c29925c3250b" locStartPos="24" analyzer="com.parasoft.xtest.cpp.analyzer.static.dupcode" lang="cpp" violId="83e84c59-13b4-347e-a55b-cd60c046bcdd" locType="sr" locEndPos="25" urgent="true" hash="-513336795" locEndLn="197" goals="1,">
+      <ElDescList>
+        <ElDesc lineHash="1713392639" ln="168" srcRngStartPos="24" srcRngEndPos="25" locRef="2" locType="sr" srcRnghash="-513336795" srcRngStartln="168" srcRngEndLn="197" srcRngFile="/WordSearch/Source Files/WordSearch.cpp" desc="[Line 168] Duplicated code in file 'WordSearch.cpp'" rngLn="168"/>
+        <ElDesc lineHash="1713392639" ln="256" srcRngStartPos="24" srcRngEndPos="25" locRef="2" locType="sr" srcRnghash="-513336795" srcRngStartln="256" srcRngEndLn="285" srcRngFile="/WordSearch/Source Files/WordSearch.cpp" desc="[Line 256] Duplicated code in file 'WordSearch.cpp'" rngLn="256"/>
+      </ElDescList>
+    </DupViol>
+    <StdViol msg="The 'moves' array should not be used" ln="222" locFile="/WordSearch/Source Files/WordSearch.cpp" locStartln="222" sev="4" auth="792497" locRef="2" rule="STL-37-DOWNGRADED" lnHash="1160435750" rule.header="C-style arrays shall not be used" tool="c++test" lineHash="1160435750" unbViolId="64542688-2028-3c6a-903b-e8f8f7f814ba" locStartPos="22" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="ad06a130-4f47-3e9f-aed8-d5054fa1a8fd" locEndPos="23" locType="sr" urgent="true" hash="-513336795" locEndLn="222" goals="1,"/>
+    <StdViol msg="The 'buffer' array should not be used" ln="245" locFile="/WordSearch/Source Files/WordSearch.cpp" locStartln="245" sev="4" auth="792497" locRef="2" rule="STL-37-DOWNGRADED" lnHash="1711857549" rule.header="C-style arrays shall not be used" tool="c++test" lineHash="1711857549" unbViolId="3fae5d21-e9ee-314b-b92d-e5492a592fb9" locStartPos="25" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="0ce16bff-b95a-3062-8def-df06c4045fbe" locEndPos="26" locType="sr" urgent="true" hash="-513336795" locEndLn="245" goals="1,"/>
+    <StdViol msg="Pass parameter &quot;node&quot; with const specifier" ln="13" locFile="/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" locStartln="13" sev="3" auth="792497" locRef="5" rule="MISRA2004-16_7" lnHash="1012246513" rule.header="A pointer parameter in a function prototype should be declared as pointer to const if the pointer is not used to modify the addressed object" tool="c++test" lineHash="1012246513" unbViolId="0a666e1e-d389-3bce-be5a-5104a9f60491" locStartPos="46" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="b8e8b454-6c59-378c-b008-0b5b06f0dd73" locEndPos="47" locType="sr" urgent="true" hash="920890444" locEndLn="13" goals="1,"/>
+    <StdViol msg="Returned value from function 'query' is passed by value" ln="78" locFile="/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" locStartln="78" sev="5" auth="792497" locRef="5" rule="OPT-33" lnHash="1361807693" rule.header="Consider returning object by reference instead of by value" tool="c++test" lineHash="1361807693" unbViolId="b84fd6e5-a911-335c-8de4-9d36fc46de9a" locStartPos="42" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="bf6bb6cb-7952-367f-9530-a052194042c1" locEndPos="43" locType="sr" urgent="true" hash="920890444" locEndLn="78" goals="1,"/>
+    <StdViol msg="Getter/setter method 'getRoot' is not inlined" ln="89" locFile="/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" locStartln="89" sev="4" auth="792497" locRef="5" rule="OPT-23" lnHash="494075381" rule.header="Trivial accessor and mutator functions should be inlined" tool="c++test" lineHash="494075381" unbViolId="0d5c43f5-b5e4-388b-9062-0ab66255de35" locStartPos="26" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="6ce37cd6-916a-320b-a30a-28307937027d" locEndPos="27" locType="sr" urgent="true" hash="920890444" locEndLn="89" goals="1,"/>
+    <StdViol msg="Member function 'getRoot' returns handles to member data: 'root'" ln="90" locFile="/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" locStartln="90" sev="5" auth="792497" locRef="5" rule="CODSTA-CPP-06-DOWNGRADED" lnHash="1408258217" rule.header="Avoid returning handles to class data from member functions" tool="c++test" lineHash="1408258217" unbViolId="55e7babb-7865-3ff8-b686-287b41f42710" locStartPos="4" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="921e96bc-8653-3c6c-a1f4-98d5e605e60a" locEndPos="5" locType="sr" urgent="true" hash="920890444" locEndLn="90" goals="1,"/>
+    <StdViol msg="Const member function 'getRoot' returns non-const handles to member data: 'root'" ln="90" locFile="/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" locStartln="90" sev="3" auth="792497" locRef="5" rule="CODSTA-CPP-77" lnHash="1408258217" rule.header="Const member functions shall not return non-const pointers or references to class-data" tool="c++test" lineHash="1408258217" unbViolId="9b15c48b-1d7f-3dcd-9985-14bfc6ce7d45" locStartPos="4" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="bb3bd53e-52f1-37f0-a3d1-9066960f6e98" locEndPos="5" locType="sr" urgent="true" hash="920890444" locEndLn="90" goals="1,"/>
+    <StdViol msg="Public member function 'getRoot' returns non-const handles to member data: 'root'" ln="90" locFile="/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" locStartln="90" sev="2" auth="792497" locRef="5" rule="MISRA2008-9_3_2_b" lnHash="1408258217" rule.header="Public member functions shall not return non-const handles to class-data" tool="c++test" lineHash="1408258217" unbViolId="0537a2b5-38c4-3d61-91f2-be0f13e208b8" locStartPos="4" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="d5848bf9-6db7-3d4f-b179-b67de4526638" locEndPos="5" locType="sr" urgent="true" hash="920890444" locEndLn="90" goals="1,"/>
+    <StdViol msg="Public member function 'getRoot' returns non-const handles to member data: 'root'" ln="90" locFile="/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" locStartln="90" sev="3" auth="792497" locRef="5" rule="OOP-36" lnHash="1408258217" rule.header="Public member functions shall not return non-const handles to private/protected class-data" tool="c++test" lineHash="1408258217" unbViolId="3aa5063d-fa03-341c-9873-3ecff69b0a7a" locStartPos="4" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="30ac15c8-e7a0-30e5-8820-84bb5f705709" locEndPos="5" locType="sr" urgent="true" hash="920890444" locEndLn="90" goals="1,"/>
+    <StdViol msg="Member function 'getWords' returns handles to member data: 'wordList'" ln="24" locFile="/WordSearch/Header Files/dictionary/HashDictionary.h" locStartln="24" sev="5" auth="792497" locRef="10" rule="CODSTA-CPP-06-DOWNGRADED" lnHash="-209194985" rule.header="Avoid returning handles to class data from member functions" tool="c++test" lineHash="-209194985" unbViolId="e0daa306-5998-31e6-ad90-9e35fb7269d4" locStartPos="55" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="5f86c8dd-a8b2-3c89-85f4-8db720da8c16" locEndPos="56" locType="sr" urgent="true" hash="-1027184227" locEndLn="24" goals="1,"/>
+    <StdViol msg="Returned value from function 'getWords' is passed by value" ln="20" locFile="/WordSearch/Header Files/dictionary/SimpleDictionary.h" locStartln="20" sev="3" auth="792497" locRef="11" rule="OPT-14" lnHash="-2076043535" rule.header="Pass objects by reference instead of by value" tool="c++test" lineHash="-2076043535" unbViolId="9d7ff3bb-8eeb-3edc-91d4-c9e83ca68218" locStartPos="29" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="c1a1055c-ac45-3d56-b140-b8fa20cbcdcb" locEndPos="30" locType="sr" urgent="true" hash="656526455" locEndLn="20" goals="1,"/>
+    <StdViol msg="Returned value from function 'getWords' is passed by value" ln="20" locFile="/WordSearch/Header Files/dictionary/SimpleDictionary.h" locStartln="20" sev="5" auth="792497" locRef="11" rule="OPT-33" lnHash="-2076043535" rule.header="Consider returning object by reference instead of by value" tool="c++test" lineHash="-2076043535" unbViolId="eaf2bac1-810e-3f90-9abb-9743b010cd84" locStartPos="29" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="921ec3c9-1f0f-351b-81e9-5f8a48efc02a" locEndPos="30" locType="sr" urgent="true" hash="656526455" locEndLn="20" goals="1,"/>
+    <StdViol msg="Members 'words' of class 'AdvancedDictionary' are declared in suboptimal order for memory layout" ln="8" locFile="/WordSearch/Header Files/dictionary/AdvancedDictionary.h" locStartln="8" sev="5" auth="792497" locRef="12" rule="OPT-13-DOWNGRADED" lnHash="2002671478" rule.header="Declare member variables in the descending size order" tool="c++test" lineHash="2002671478" unbViolId="c06cea59-bd72-3dce-ab72-68560a144563" locStartPos="6" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="a22f7d99-9ea0-34c7-933d-818fd2dd96a7" locEndPos="7" locType="sr" urgent="true" hash="1463734401" locEndLn="8" goals="1,"/>
+    <StdViol msg="Returned value from function 'query' is passed by value" ln="20" locFile="/WordSearch/Header Files/dictionary/AdvancedDictionary.h" locStartln="20" sev="5" auth="792497" locRef="12" rule="OPT-33" lnHash="-2017893567" rule.header="Consider returning object by reference instead of by value" tool="c++test" lineHash="-2017893567" unbViolId="c117c76d-39c2-3512-9b13-761e0c473328" locStartPos="26" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="3fa2f78c-6fc6-3309-8078-51a572712f0b" locEndPos="27" locType="sr" urgent="true" hash="1463734401" locEndLn="20" goals="1,"/>
+    <StdViol msg="Member function 'getWords' returns handles to member data: 'words'" ln="31" locFile="/WordSearch/Header Files/dictionary/AdvancedDictionary.h" locStartln="31" sev="5" auth="792497" locRef="12" rule="CODSTA-CPP-06-DOWNGRADED" lnHash="407090664" rule.header="Avoid returning handles to class data from member functions" tool="c++test" lineHash="407090664" unbViolId="83167358-5db4-3a5a-a67c-c171e70ad5d1" locStartPos="55" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="4b5f0904-c575-3a62-bc27-5aaf8d01bbd6" locEndPos="56" locType="sr" urgent="true" hash="1463734401" locEndLn="31" goals="1,"/>
+    <StdViol msg="Members 'children' of structure 'TrieNode' are declared in suboptimal order for memory layout" ln="36" locFile="/WordSearch/Header Files/dictionary/AdvancedDictionary.h" locStartln="36" sev="5" auth="792497" locRef="12" rule="OPT-13-DOWNGRADED" lnHash="724183367" rule.header="Declare member variables in the descending size order" tool="c++test" lineHash="724183367" unbViolId="a6dda374-a1dc-3409-9e6d-526dbb1c8e60" locStartPos="11" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="bdc70c2c-2ef4-345d-925c-6d23338b5330" locEndPos="12" locType="sr" urgent="true" hash="1463734401" locEndLn="36" goals="1,"/>
+    <StdViol msg="The 'children' array should not be used" ln="39" locFile="/WordSearch/Header Files/dictionary/AdvancedDictionary.h" locStartln="39" sev="4" auth="792497" locRef="12" rule="STL-37-DOWNGRADED" lnHash="414756549" rule.header="C-style arrays shall not be used" tool="c++test" lineHash="414756549" unbViolId="ba42c8cd-e4a3-339d-bb0d-10e68969b55d" locStartPos="18" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="a5ae3faa-c163-38f4-960c-e7fdbe794ab0" locEndPos="19" locType="sr" urgent="true" hash="1463734401" locEndLn="39" goals="1,"/>
+    <StdViol msg="Pointer member 'root' is allocated by new but not obviously deleted in destructor of class 'AdvancedDictionary'" ln="46" locFile="/WordSearch/Header Files/dictionary/AdvancedDictionary.h" locStartln="46" sev="2" auth="792497" locRef="12" rule="MRM-33" lnHash="508274115" rule.header="Call delete on pointer members in destructors" tool="c++test" lineHash="508274115" unbViolId="1c3def4a-d7d9-39a6-b91a-3496dcaedc01" locStartPos="14" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="805311ea-f99b-357d-8c05-84e2c9b76200" locEndPos="15" locType="sr" urgent="true" hash="1463734401" locEndLn="46" goals="1,"/>
+    <StdViol msg="Members 'down, downLeft, downRight, left, right, up, upLeft, upRight' of structure 'Cell' are declared in suboptimal order for memory layout" ln="4" locFile="/WordSearch/Header Files/grid/AdvancedGrid.h" locStartln="4" sev="5" auth="792497" locRef="13" rule="OPT-13-DOWNGRADED" lnHash="-721637757" rule.header="Declare member variables in the descending size order" tool="c++test" lineHash="-721637757" unbViolId="5ed778d2-e2e0-3043-8f28-b6e51b459793" locStartPos="7" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" violId="a6abd282-9e84-3b05-b58a-9d15b294c6c7" locEndPos="8" locType="sr" urgent="true" hash="-1783358447" locEndLn="4" goals="1,"/>
+  </StdViols>
+
+      <TestedFilesDetails>
+         <Total name="Total (Suppressed)" supp="0" total="22">
+            <Project id="WordSearch" name="WordSearch" supp="0" total="22">
+               <Res name="Source Files" supp="0" total="12">
+                  <Res loc="/WordSearch/Source Files/Main.cpp" locRef="1" locType="sr" name="Main.cpp" supp="0" total="0"/>
+                  <Res loc="/WordSearch/Source Files/WordSearch.cpp" locRef="2" locType="sr" name="WordSearch.cpp" supp="0" total="5"/>
+                  <Res name="grid" supp="0" total="0">
+                     <Res loc="/WordSearch/Source Files/grid/AdvancedGrid.cpp" locRef="3" locType="sr" name="AdvancedGrid.cpp" supp="0" total="0"/>
+                     <Res loc="/WordSearch/Source Files/grid/SimpleGrid.cpp" locRef="4" locType="sr" name="SimpleGrid.cpp" supp="0" total="0"/>
+                  </Res>
+                  <Res name="dictionary" supp="0" total="7">
+                     <Res loc="/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" locRef="5" locType="sr" name="AdvancedDictionary.cpp" supp="0" total="7"/>
+                     <Res loc="/WordSearch/Source Files/dictionary/HashDictionary.cpp" locRef="6" locType="sr" name="HashDictionary.cpp" supp="0" total="0"/>
+                     <Res loc="/WordSearch/Source Files/dictionary/SimpleDictionary.cpp" locRef="7" locType="sr" name="SimpleDictionary.cpp" supp="0" total="0"/>
+                  </Res>
+               </Res>
+               <Res name="Header Files" supp="0" total="10">
+                  <Res name="grid" supp="0" total="1">
+                     <Res loc="/WordSearch/Header Files/grid/SimpleGrid.h" locRef="8" locType="sr" name="SimpleGrid.h" supp="0" total="0"/>
+                     <Res loc="/WordSearch/Header Files/grid/AdvancedGrid.h" locRef="13" locType="sr" name="AdvancedGrid.h" supp="0" total="1"/>
+                  </Res>
+                  <Res loc="/WordSearch/Header Files/WordSearch.h" locRef="9" locType="sr" name="WordSearch.h" supp="0" total="0"/>
+                  <Res name="dictionary" supp="0" total="9">
+                     <Res loc="/WordSearch/Header Files/dictionary/HashDictionary.h" locRef="10" locType="sr" name="HashDictionary.h" supp="0" total="1"/>
+                     <Res loc="/WordSearch/Header Files/dictionary/SimpleDictionary.h" locRef="11" locType="sr" name="SimpleDictionary.h" supp="0" total="2"/>
+                     <Res loc="/WordSearch/Header Files/dictionary/AdvancedDictionary.h" locRef="12" locType="sr" name="AdvancedDictionary.h" supp="0" total="6"/>
+                  </Res>
+               </Res>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

@@ -1,0 +1,11 @@
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary=uCbvkR3Jl6JTWRWwm865Cmeg3w6ph6Rm
+StorageVersion: v1
+
+--uCbvkR3Jl6JTWRWwm865Cmeg3w6ph6Rm
+
+<?xml version='1.0' encoding='UTF-8'?><ResultsList path="WordSearch/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp"><VersionInfos><StorageInfo ownerId="com.parasoft.xtest.checkers.api.execution" resultId="IExecutionViolation" ver="2"/><StorageInfo ownerId="com.parasoft.xtest.checkers.api.execution" resultId="InsureViolation" ver="3"/><StorageInfo ownerId="com.parasoft.xtest.checkers.api.scope" resultId="IScopeProjectInfo" ver="3"/><StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2"/><StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2"/><StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2"/><StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2"/><StorageInfo ownerId="com.parasoft.xtest.checkers.api.generation" resultId="IGenerationInfo" ver="2"/><StorageInfo ownerId="com.parasoft.xtest.checkers.api.generation" resultId="IGenerationProjectInfo" ver="2"/></VersionInfos></ResultsList>
+--uCbvkR3Jl6JTWRWwm865Cmeg3w6ph6Rm
+
+<?xml version='1.0' encoding='UTF-8'?><ResultInfo resultId="ICodingStandardsViolation" ownerId="com.parasoft.xtest.checkers.api.standards" violKeys="null;null"><StdViol msg="Returned value from function 'query' is passed by value" ln="78" sev="5" auth="792497" rule="OPT-33" tool="c++test" cat="OPT" lang="cpp" locType="sr" config="1" hash="1534747476" locStartln="78" locStartPos="42" locEndLn="78" locEndPos="43" locFile="WordSearch/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp"/><StdViol msg="Pass parameter &quot;node&quot; with const specifier" ln="13" sev="3" auth="792497" rule="MISRA2004-16_7" tool="c++test" cat="MISRA2004" lang="cpp" locType="sr" config="1" hash="1534747476" locStartln="13" locStartPos="46" locEndLn="13" locEndPos="47" locFile="WordSearch/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp"/></ResultInfo>
+--uCbvkR3Jl6JTWRWwm865Cmeg3w6ph6Rm

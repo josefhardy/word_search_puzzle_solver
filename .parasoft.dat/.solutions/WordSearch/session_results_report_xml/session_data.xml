@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ResultsSession>
+   <SessionData configName="500083 rule set 2025" configPseudoUrl="c++test.user://500083 rule set 2025" enabledAnalysis="Static" enabledHandlers="com.parasoft.xtest.checkers.api.scope.factory;com.parasoft.xtest.checkers.api.standards.factory" hasViols="true" header="??:WordSearch:??true??false??" runId="" startTime="1777828143352" tool="c++test">
+      <TestParameters cmdLn="C++test: -config c++test.user://500083 rule set 2025 "/>
+      <Authors>
+         <Author id="dev1" name="792497"/>
+      </Authors>
+      <Selection>
+         <Res id="WordSearch/WordSearch"/>
+      </Selection>
+      <XmlDataFiles file0="C:\Users\792497\Source\Repos\lab-i-final-lab-josefhardy\.parasoft.dat\.solutions\WordSearch\session_results_report_xml\cs_violations.xml"/>
+   </SessionData>
+   <Locations>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.cpp" loc="WordSearch/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" projPath="WordSearch/WordSearch" project="WordSearch"/>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedDictionary.h" loc="WordSearch/WordSearch/Header Files/dictionary/AdvancedDictionary.h" projPath="WordSearch/WordSearch" project="WordSearch"/>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\AdvancedGrid.h" loc="WordSearch/WordSearch/Header Files/grid/AdvancedGrid.h" projPath="WordSearch/WordSearch" project="WordSearch"/>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\WordSearch.cpp" loc="WordSearch/WordSearch/Source Files/WordSearch.cpp" projPath="WordSearch/WordSearch" project="WordSearch"/>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\SimpleDictionary.h" loc="WordSearch/WordSearch/Header Files/dictionary/SimpleDictionary.h" projPath="WordSearch/WordSearch" project="WordSearch"/>
+      <Loc fsPath="C:\Users\792497\source\repos\lab-i-final-lab-josefhardy\WordSearch\HashDictionary.h" loc="WordSearch/WordSearch/Header Files/dictionary/HashDictionary.h" projPath="WordSearch/WordSearch" project="WordSearch"/>
+   </Locations>
+   <CodingStandards>
+      <TestedFilesDetails>
+         <Total name="Suppressed / Total" supp="0" total="20">
+            <Project name="WordSearch" supp="0" total="20">
+               <Res name="Header Files/dictionary" supp="0" total="12">
+                  <Res loc="WordSearch/WordSearch/Header Files/dictionary/AdvancedDictionary.h" locType="sr" name="AdvancedDictionary.h" supp="0" total="10"/>
+                  <Res loc="WordSearch/WordSearch/Header Files/dictionary/HashDictionary.h" locType="sr" name="HashDictionary.h" supp="0" total="1"/>
+                  <Res loc="WordSearch/WordSearch/Header Files/dictionary/SimpleDictionary.h" locType="sr" name="SimpleDictionary.h" supp="0" total="1"/>
+               </Res>
+               <Res name="Header Files/grid" supp="0" total="1">
+                  <Res loc="WordSearch/WordSearch/Header Files/grid/AdvancedGrid.h" locType="sr" name="AdvancedGrid.h" supp="0" total="1"/>
+                  <Res name="SimpleGrid.h" supp="0" total="0"/>
+               </Res>
+               <Res name="Header Files" supp="0" total="0">
+                  <Res name="WordSearch.h" supp="0" total="0"/>
+               </Res>
+               <Res name="Source Files/dictionary" supp="0" total="2">
+                  <Res name="SimpleDictionary.cpp" supp="0" total="0"/>
+                  <Res loc="WordSearch/WordSearch/Source Files/dictionary/AdvancedDictionary.cpp" locType="sr" name="AdvancedDictionary.cpp" supp="0" total="2"/>
+                  <Res name="HashDictionary.cpp" supp="0" total="0"/>
+               </Res>
+               <Res name="Source Files/grid" supp="0" total="0">
+                  <Res name="SimpleGrid.cpp" supp="0" total="0"/>
+                  <Res name="AdvancedGrid.cpp" supp="0" total="0"/>
+               </Res>
+               <Res name="Source Files" supp="0" total="5">
+                  <Res loc="WordSearch/WordSearch/Source Files/WordSearch.cpp" locType="sr" name="WordSearch.cpp" supp="0" total="5"/>
+                  <Res name="Main.cpp" supp="0" total="0"/>
+               </Res>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+</ResultsSession>
